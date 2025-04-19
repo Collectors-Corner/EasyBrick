@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial Black';
+    margin: 20px;
+}
+
+h1 {
+    color: orange;
+}
+
+h2 {
+    color: orange;
+}
+
+h3 {
+    color: orange;
+}
+
+button {
+    font-style: italic;
+    background-color: orange;
+}
+
+a {
+    font-family: 'Arial Black';
+    text-decoration: none;
+    color: white;
+}
+
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+input {
+    width: 50%;
+    font-size: 1rem;
+}
+
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 20px;
+}
+
+.result-item {
+    margin: 5px 0;
+    border: 1px solid black;
+    background-color: gray;
+    padding: 15;
+    gap: .25rem;
+    margin-top: 1rem;
+}
+
+.username {
+    font-size: 0.9em;
+    color: rgb(96, 96, 96);
+    margin-top: 5px;
+}
+
+.demo-details {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.hide {
+    display: none;
+}
